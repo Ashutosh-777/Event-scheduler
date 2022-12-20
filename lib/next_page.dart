@@ -17,6 +17,7 @@ class _next_pageState extends State<next_page> {
       Scaffold(
         appBar: AppBar(
           title: const Text('New Event'),
+          backgroundColor: Colors.deepPurpleAccent[700],
         ),
         body: Center(
           child: Column(

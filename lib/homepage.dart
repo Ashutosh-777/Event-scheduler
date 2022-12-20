@@ -52,6 +52,7 @@ class _MyAppState extends State<MyApp> {
         floatingActionButton: Builder(
             builder: (context) {
               return FloatingActionButton(
+                backgroundColor: Colors.deepPurpleAccent[700],
                 onPressed: () async{
                   String input_event =await Navigator.of(context).push(
                       MaterialPageRoute(builder: (context) => next_page()));
